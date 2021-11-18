@@ -4,36 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RestaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buttonSuma"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/editTextNumberXR"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Suma" />
+            android:ems="10"
+            android:inputType="number" />
 
-        <Button
-            android:id="@+id/buttonResta"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/editTextNumberYR"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resta" />
+            android:ems="10"
+            android:inputType="number" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/editTextNumberTotalR"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
-
+            android:ems="10"
+            android:inputType="number" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
